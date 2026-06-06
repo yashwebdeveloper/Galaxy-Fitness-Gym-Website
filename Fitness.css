@@ -1,0 +1,891 @@
+/*==================== BODY ===============================*/
+
+body{
+	
+margin:0;
+
+font-family:Arial;
+
+background:linear-gradient(yellow,gray);
+
+}
+
+/*======================= HEADER ===========================*/
+
+header{
+	
+text-align:center;
+
+background:white;
+
+padding:20px;
+
+}
+
+
+header img{
+	
+width:60%;
+
+height:auto;
+
+border-radius:20px;
+
+border:5px solid black;
+
+}
+
+
+h1{
+	
+font-size:50px;
+
+color:darkblue;
+
+text-shadow:5px 5px 10px gray;
+
+animation:heading 1s infinite;
+
+}
+
+header p{
+	
+font-size:25px;
+
+color:darkgreen;
+
+font-family:Time New Roman;
+
+}
+
+
+/*========================= ANIMATION =======================*/
+
+@keyframes heading{
+	
+from{
+color:darkblue;
+
+}
+
+to{
+color:red;
+}
+
+}
+
+
+/* ============================= NAVBAR ===========================*/
+
+.navbar{
+	
+display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+background:black;
+
+padding:20px;
+
+}
+
+.navbar a{
+	
+color:white;
+
+text-decoration:none;
+
+font-size:22px;
+
+font-weight:bold;
+
+transition:1s;
+
+}
+
+.navbar a:hover{
+	
+color:yellow;
+
+transform:scale(1.2);
+
+}
+
+
+/* ========================== COMMON TITLE ==================== */
+
+.section-title{
+
+background:gray;
+
+padding:10px;
+
+text-align:center;
+
+border-radius:5px;
+
+font-size:30px;
+
+}
+
+/* ================= HERO & ABOUT ========================== */
+
+.hero,
+.about{
+	
+background:white;
+
+margin:20px;
+
+padding:30px;
+
+border-radius:20px;
+
+box-shadow:5px 5px 10px gray;
+
+text-align:center;
+
+text-shadow:5px 5px 10px red;
+
+}
+
+
+.hero p,
+.about p{
+	
+font-size:22px;
+
+color:darkblue;
+
+font-family:Times New Roman;
+
+}
+
+
+
+/* ======================== FACILITIES ====================== */
+.head,
+.facilities,
+.programs,
+.trainers,
+.benefits,
+.offers,
+.terms{
+padding:20px;
+
+}
+
+.facilities{
+
+background:white;
+
+}
+
+.programs{
+	
+background:white;
+
+}
+
+.benefits{
+
+background:white;
+
+}
+
+.terms{
+	
+background:white;
+
+}
+
+
+.social ul li,
+.training ul li,
+.offers p,
+.motivation blockquote,
+.vision p,
+.archievements ol li,
+.stories p,
+.facilities ul li,
+.programs ol li,
+.benefits ul li,
+.terms ol li{	
+
+font-size:20px;
+
+color:darkgreen;
+
+font-weight:normal;
+
+margin:10px;
+
+font-family:Time New Roman;
+}
+
+
+.section-title,h2,
+.information h2,
+.hours h2,
+.map h2,
+.trainer h2,
+.achievements h2,
+.training h2,
+.qualifications h2,
+.head h2,
+.facilities h2{
+	
+color:black;
+
+text-align:center;
+
+border:5px solid yellow;
+
+background:yellow;
+
+}
+
+
+.benefits h2,
+.offers h2,
+.terms h2,
+.form-section h2,
+.form h2{
+	
+color:black;
+
+text-align:center;
+
+border:5px solid yellow;
+
+background:yellow;
+
+}
+
+.programs h2{
+	
+color:black;
+
+text-align:center;
+
+border:5px solid yellow;
+
+background:yellow;
+
+}
+
+.faq{
+
+padding:20px;
+	
+background-color:yellow;
+
+font-family:Time New Roman;
+
+font-size:18px;
+
+}
+
+.faq,
+h3{
+	
+color:red;
+}
+
+.faq,p1{
+	
+color:red;
+
+}
+
+
+.faq,
+h4{
+color:green;
+
+}
+
+.faq,p2{
+	
+color:green;
+
+}
+
+.information dl{
+
+padding:20px;
+
+color:black;
+
+background:green;
+
+}
+
+.gallery h2,
+.social h2,
+.trainers h2,
+.stories h2,
+.archievements h2,
+.choose h2,
+.vision h2{
+	
+color:black;
+
+text-align:center;
+
+border:5px solid yellow;
+
+background:yellow;
+
+}
+
+
+
+.container{
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+padding-bottom:30px;
+
+}
+
+.box{
+
+background:lightgreen;
+
+padding:20px;
+
+width:250px;
+
+text-align:center;
+
+border-radius:20px;
+
+box-shadow:5px 5px 10px gray;
+
+transition:0.5s;
+
+overflow:hidden;
+
+}
+
+.box:hover{
+
+transform:scale(1.05);
+
+background:green;
+
+color:white;
+
+}
+
+
+.container8{
+
+display:flex;
+
+justify-content:center;
+
+gap:0px;
+
+flex-wrap:wrap;
+
+padding-bottom:30px;
+
+}
+
+.box8{
+
+background:orange;
+
+padding:20px;
+
+width:230px;
+
+text-align:center;
+
+border-radius:20px;
+
+box-shadow:5px 5px 10px gray;
+
+transition:0.5s;
+
+overflow:hidden;
+
+margin:20px auto;
+
+}
+
+.box8:hover{
+
+transform:scale(1.05);
+
+background:green;
+
+color:white;
+
+}
+
+
+
+.table-section{
+	
+padding:20px;
+
+}
+
+table{
+	
+width:100%;
+
+margin:auto;
+
+border-collapse:collapse;
+
+background:white;
+
+}
+
+th{
+	
+background:black;
+
+color:white;
+
+padding:15px;
+
+font-size:22px;
+
+}
+
+td{
+	
+border:2px solid black;
+
+padding:15px;
+
+text-align:center;
+
+font-size:20px;
+
+}
+
+tr:hover{
+	
+background:lightgray;
+
+}
+
+.bmi{	
+	
+background:white;
+
+margin:20px;
+
+padding:20px;
+ 
+border-radius:20px;
+
+box-shadow:5px 5px 10px gray;
+
+text-align:center;
+
+}
+
+.bmi h2{
+	
+font-size:30px;
+
+}
+
+.bmi p{
+	
+font-size:22px;
+
+}
+
+
+.form-section{
+	
+padding:20px;
+
+}
+
+form2,
+form{
+	
+background:orange;
+
+color:black;
+
+width:95%;
+
+margin:20px auto;
+
+padding:15px;
+
+box-shadow:5px 5px 10px gray;
+
+display:flex;
+
+flex-direction:column;
+
+gap:5px;
+
+}
+
+label{
+	
+font-size:20px;
+
+font-weight:bold;
+
+}
+
+input,
+textarea,
+select{
+	
+padding:10px;
+
+font-size:18px;
+
+width:100%;
+
+box-sizing:border-box;
+
+}
+
+textarea{
+	
+height:100px;
+
+}
+
+input[type="submit"]{
+	
+background:darkblue;
+
+color:white;
+
+border:none;
+
+border-radius:10px;
+
+cursor:pointer;
+
+transition:1s;
+
+}
+
+
+input[type="submit"]:hover{
+	
+background:green;
+
+transform:scale(1.05);
+
+}
+
+
+input[type="Reset"]{
+	
+background:darkblue;
+
+color:white;
+
+border:none;
+
+border-radius:10px;
+
+cursor:pointer;
+
+transition:1s;
+
+}
+
+input[type="Reset"]:hover{
+
+background:green;
+
+transform:scale(1.05);
+
+}
+
+
+
+.timing{
+
+color:red;
+
+
+
+padding:20px;
+
+}
+
+.timing h2{
+	
+color:black;
+
+text-align:center;
+
+border:5px solid yellow;
+
+background:yellow;
+
+}
+
+
+.audio{
+	
+background:darkblue;
+
+padding:20px;
+
+width:100%;
+
+}
+
+.audio h2{
+	
+color:black;
+
+text-align:center;
+
+border:5px solid yellow;
+
+background:yellow;
+}
+
+
+.video{
+	
+background:darkred;
+
+padding:20px;
+
+}
+
+.video h2{
+	
+color:black;
+
+text-align:center;
+
+border:5px solid yellow;
+
+background:yellow;
+
+}
+
+.iframe{
+	
+background:darkyellow;
+
+padding:20px;
+
+}
+
+.iframe h2{
+	
+color:black;
+
+text-align:center;
+
+border:5px solid yellow;
+
+background:yellow;
+
+}
+
+.website{
+
+padding:20px;
+
+}
+
+
+.website h2{
+	
+color:black;
+
+text-align:center;
+
+border:5px solid yellow;
+
+background:yellow;
+
+}
+
+
+
+
+
+.article{
+	
+background:white;
+
+padding:20px;
+
+
+}
+
+.container1{
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+padding-bottom:30px;
+
+}
+
+.box1{
+
+background:lightblue;
+
+padding:20px;
+
+width:250px;
+
+text-align:center;
+
+border-radius:20px;
+
+box-shadow:5px 5px 10px gray;
+
+transition:0.5s;
+
+overflow:hidden;
+
+}
+
+.box1:hover{
+
+transform:scale(1.05);
+
+background:orange;
+
+color:white;
+
+}
+
+.blockquote,
+.article{
+
+background-color:purple;
+
+border-left:10px solid green;
+
+padding:20px;
+
+margin:20px;
+
+
+}
+.tip,
+.aside{
+
+background-color:orange;
+
+border-left:10px solid red;
+
+padding:20px;
+
+margin:20px;
+
+}
+.blockquote,
+.quote,
+.motivation{
+
+background-color:white;
+
+border-left:10px solid purple;
+
+padding:20px;
+
+margin:20px;
+
+}
+
+
+footer{
+	
+background-color:lightblue;
+
+padding:20px;
+
+}
+
+footer,dl,dt,dd{
+
+color:black;
+
+font-family:Time New Roman;
+
+font-size:22px;
+
+font-weight:bolder;
+
+
+
+}
+
+
+.history,
+.mission{
+	
+background:white;
+
+margin:20px;
+
+padding:30px;
+
+border-radius:20px;
+
+box-shadow:5px 5px 10px gray;
+
+text-align:center;
+
+text-shadow:5px 5px 10px red;
+
+}
+
+
+.history p,
+.mission p{
+	
+font-size:22px;
+
+color:darkblue;
+
+font-family:Times New Roman;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
